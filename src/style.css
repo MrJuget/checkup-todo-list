@@ -52,3 +52,23 @@ button:hover {
 .tasks-container {
     margin-top: 20px; /* Отступ сверху */
 }
+
+/* Медиазапрос для экранов шириной 768 пикселей и меньше (например, планшеты и мобильные устройства) */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px; /* Внутренние отступы */
+    }
+
+    .container h1 {
+        font-size: 1.2em;
+    }
+
+    input[type="text"], input[type="password"] {
+        padding: 8px; /* Внутренние отступы */
+    }
+
+    button {
+        padding: 8px; /* Внутренние отступы */
+    }
+}
