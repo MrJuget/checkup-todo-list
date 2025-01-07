@@ -1,0 +1,54 @@
+/* Стили для всего документа */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0; /* Внешние отступы */
+    padding: 0; /* Внутренние отступы */
+    display: flex; 
+    align-items: center; /* Центр по вертикали */
+    justify-content: center; /* Центр по горизонтали */
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px; /* Закругление */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тень */
+    padding: 20px; /* Внутренний отступ */
+    width: 300px;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px; /* Внутренний отступ */
+    margin: 10px 0; /* Вертикальный отступ */
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Закругление */
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px; /* Внутренний отступ */
+    border: none; /* Убираем границу */
+    border-radius: 4px; /* Закругление */
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px; /* Верхний отступ */
+}
+
+/* Стили для кнопок при наведении */
+button:hover {
+    background-color: #45a049; /* Более тёмный зелёный при наведении */
+}
+
+.tasks-container {
+    margin-top: 20px; /* Отступ сверху */
+}
