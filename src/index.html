@@ -29,7 +29,22 @@
 
             <button type="submit">Войти</button>
         </form>
+
+        <div class="tasks-container">
+            <h1>Ваши задачи</h1>
+            <form id="task-form">
+                <label for="task-input">Введите новую задачу:</label>
+                <input type="text" id="task-input" name="task-input" required>
+                <button type="submit">Добавить задачу</button>
+            </form>
+
+            <ul id="tasks-list">
+            <!-- Список задач будет добавляться сюда -->
+            </ul>
+        </div>
    </div> 
 
+   <script src="./app.js"></script>
+   
 </body>
 </html>
