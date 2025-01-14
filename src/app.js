@@ -1,3 +1,8 @@
+<script src="./node_modules/axios/dist/axios.min.js"></script>
+
+const res = await axios.get("http://ya.ru")
+console.log(res)
+
 // Обработчик события для формы добавления задач
 document.getElementById('task-form').addEventListener('submit', function(event) {
     event.preventDefault(); // Предотвращаем перезагрузку страницы
