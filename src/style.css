@@ -4,7 +4,7 @@ body {
     background-color: #f0f0f0;
     margin: 0; /* Внешние отступы */
     padding: 0; /* Внутренние отступы */
-    display: flex; 
+    display: flex;
     align-items: center; /* Центр по вертикали */
     justify-content: center; /* Центр по горизонтали */
     height: 100vh;
@@ -17,6 +17,20 @@ body {
     padding: 20px; /* Внутренний отступ */
     width: 300px;
     text-align: center;
+}
+
+.tasks-container {
+    background-color: #ffffff;
+    border-radius: 8px; /* Закругление */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тень */
+    padding: 20px; /* Внутренний отступ */
+    width: 300px;
+    text-align: center;
+}
+
+.tasks-container h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px; /* Отступ снизу */
 }
 
 .container h1 {
@@ -61,6 +75,15 @@ button:hover {
     }
 
     .container h1 {
+        font-size: 1.2em;
+    }
+
+    .tasks-container {
+        width: 90%;
+        padding: 15px; /* Внутренние отступы */
+    }
+
+    .tasks-container h1 {
         font-size: 1.2em;
     }
 

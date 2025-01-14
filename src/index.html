@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+<div>
+    <div class="container">
 
-   <div class="container">
         <h1>Регистрация</h1>
         <form id="registration-form">
             <label for="username">Имя пользователя:</label>
@@ -31,21 +32,23 @@
             <button type="submit">Войти</button>
         </form>
 
-        <div class="tasks-container">
-            <h1>Ваши задачи</h1>
-            <form id="task-form">
-                <label for="task-input">Введите новую задачу:</label>
-                <input type="text" id="task-input" name="task-input" required>
-                <button type="submit">Добавить задачу</button>
+    </div>
+
+    <div class="tasks-container">
+        <h1>Ваши задачи</h1>
+        <form id="task-form">
+            <label for="task-input">Введите новую задачу:</label>
+            <input type="text" id="task-input" name="task-input" required>
+
+            <button type="submit">Добавить задачу</button>
             </form>
 
             <ul id="tasks-list">
             <!-- Список задач будет добавляться сюда -->
             </ul>
-        </div>
-   </div>
 
-   <script src="./app.js"></script>
-
+            <script src="./app.js"></script>
+    </div>
+</div>
 </body>
 </html>
